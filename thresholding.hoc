@@ -139,7 +139,6 @@ for i=0, rect.size()-1 {
 }
 for i=0,rect.size()-1 {
     savdata.printf("%g \t \t %g\n", rect.x(i), recv.x(i))
-
 }
 
 savdata.close()
